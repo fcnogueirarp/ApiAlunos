@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\casa\\Desktop\\AspNetCore\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {}
+    "C:\\Users\\casa\\Desktop\\AlunosApi\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\casa\\Desktop\\AspNetCore\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {
+    "C:\\Users\\casa\\Desktop\\AlunosApi\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\casa\\Desktop\\AspNetCore\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+        "projectUniqueName": "C:\\Users\\casa\\Desktop\\AlunosApi\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
         "projectName": "AlunosApi",
-        "projectPath": "C:\\Users\\casa\\Desktop\\AspNetCore\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
+        "projectPath": "C:\\Users\\casa\\Desktop\\AlunosApi\\React\\AlunosApi\\AlunosApi\\AlunosApi.csproj",
         "packagesPath": "C:\\Users\\casa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\casa\\Desktop\\AspNetCore\\React\\AlunosApi\\AlunosApi\\obj\\",
+        "outputPath": "C:\\Users\\casa\\Desktop\\AlunosApi\\React\\AlunosApi\\AlunosApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.5, )"

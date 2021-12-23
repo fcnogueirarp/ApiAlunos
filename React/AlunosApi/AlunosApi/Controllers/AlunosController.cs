@@ -54,7 +54,7 @@ namespace AlunosApi.Controllers
             }
         }
 
-        [HttpGet("{id:int}", Name = "GetAluno(id)")]
+        [HttpGet("{id:int}", Name = "GetAluno")]
         public async Task<ActionResult<Aluno>> GetAluno(int id)
         {
             try
